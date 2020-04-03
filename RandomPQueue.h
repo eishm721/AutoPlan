@@ -66,7 +66,7 @@ private:
      * Reshuffling algorithm that outputs the priority in which a given element
      * should be drawn given its rarity
      */
-    int priorityFcn(bool isRare);
+    int priorityFcn(bool isRare) const;
 
     /**
      * Uses default random engine to output a random integer btwn two numbers INCLUSIVELY
