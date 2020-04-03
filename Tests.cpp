@@ -1,5 +1,5 @@
 /*
- * Filename: Main.cpp
+ * Filename: Tests.cpp
  *
  * Includes a collection of tests for optimizing RandomPQueue data structure
  * Uses simulations to model long-term allocation frequencies
