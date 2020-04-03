@@ -116,7 +116,7 @@ public:
         return avg(gaps);
     }
 
-    // Finds avg number of days until a meal is repeated for various foodqueue sizes
+    // Finds avg number of days until a meal is repeated for various RP queue sizes
     void runAvgReallocationGap() {
         for (int i = 4; i < 15; i++) {
             vector<string> elems = buildUniqueVectorSizeN(i);
