@@ -11,8 +11,8 @@
 using namespace std;
 
 /* Premade breakfast food sets for testing */
-const string rareItem = "scotch egg";
-const vector<string> potentialFoods = {"Poha", "Macaroni", "Upma", "Bread Roll", "Sevai", "Bread Poha", "Omlet", "Cereal", rareItem};
+const string rareItem = "9";
+const vector<string> potentialFoods = {"1", "2", "3", "4", "5", "6", "7", "8", rareItem};
 
 
 /* Helper Functions to preprocess data */
