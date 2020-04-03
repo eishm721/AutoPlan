@@ -30,7 +30,7 @@ string RandomPQueue::toLowerCase(const string& input) const {
 
 
 /* Private Helper functions: Reshuffling Algorithm Implementation */
-int RandomPQueue::priorityFcn(bool isRare) {
+int RandomPQueue::priorityFcn(bool isRare) const {
     // rare foods are seen less frequently
     if (size() < 5 || isRare) {
         return size();
