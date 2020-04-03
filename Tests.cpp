@@ -49,11 +49,11 @@ public:
         return false;
     }
 
-    // builds a food queue from a set of food options
+    // builds a RP queue from a set of  options
     RandomPQueue buildQueue(const vector<string>& options) {
         RandomPQueue items;
         for (const string& item: options) {
-            // special casing for rare foods
+            // special casing for rare items
             if (item == rareItem) {
                 items.add(item, true);
             } else {
@@ -116,7 +116,7 @@ public:
         return avg(gaps);
     }
 
-    // Finds avg number of days until a meal is repeated for various RP queue sizes
+    // Finds avg number of days until an item is repeated for various RP queue sizes
     void runAvgReallocationGap() {
         for (int i = 4; i < 15; i++) {
             vector<string> elems = buildUniqueVectorSizeN(i);
@@ -130,7 +130,7 @@ class RareItemTests: public HelperFcns {
 public:
     // avg freq of rare item
     void rareItemExpFreqTest() {
-        // builds map of how many times all foods appear in O(n)
+        // builds map of how many times all items appear in O(n)
         RandomPQueue elems = buildQueue(potentialFoods);
         unordered_map<string, int> freq;
         double totalCalls = 100000;
