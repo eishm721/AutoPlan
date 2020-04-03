@@ -54,7 +54,7 @@ bool RandomPQueue::isEmpty() const {
 }
 
 bool RandomPQueue::contains(const string& input) const {
-    for (Item elem: elems) {
+    for (const Item& elem: elems) {
         if (elem.name == toLowerCase(input)) {
             return true;
         }
