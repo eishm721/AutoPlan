@@ -1,6 +1,6 @@
 # AutoPlan++
 
-This is an item allocation interface for creating customized exercise/food schedules based on self-developed shuffling algorithms.
+This is an item allocation interface for creating customized exercise/food schedules for COVID-19 quarantine based on self-developed shuffling algorithms.
 
 This application takes in a set of items entered in my a user and automatically creates allocation sequences based on user specifications and self-manages data. Implemented to prevent two items from showing up on back-to-back days. Random shuffling algorithm created that spaces elements out based on total number of items to choose from. Items can be assigned a rarity parameter to show up less frequently.
 
